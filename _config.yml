@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Toby Woodcock
 description: A page about myself
+markdown: kramdown
