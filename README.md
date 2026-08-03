@@ -3,14 +3,23 @@ Hi, I am Physics graduate currently looking for PhDs in astrophysics with an emp
 
 University Projects:
 1. (MPhys Final Project) Forming Diverse Planets by Pebble Accretion:
+	
 	*Context* Planets are formed from material leftover from star formation, but the processes through which a 'planetary embryo' grows into a fully fledged planet are still uncertain. One process capable of forming planetary cores is pebble accretion, the aeryodynamically assisted accumulation of pebble-sized solids by a planetary embryo.
+	
 	*Aims* In this project, we seek to model the growth of proto-planets through pebble accretion in order to suggest some of the conditions an early solar system would require to be able to develop giant planets.
+	
 	*Methods* We combine pebble accretion with two other processes: planetary migration and gas accretion to build a versatile model of planetary growth. In Python, we use the foward Euler method with an adaptive timestep to integrate both the position and mass of the planet with respect to time. 
+	
 	*Results* Growth is highly dependent on the orbital radius of the embryo, and the largest planets develop outside the inner solar system before migrating inwards. Our model was able to form giant planets in early solar systems with moderate amounts of dust - more than estimated in real exoplanet systems, but less than needed to form giant planets in other models.
+
 2. (Computational Physics Module Final Project) Trajectory of a Particle in The Vicinity of a Black Hole
+	
 	*Context* The spacetime surrounding a black hole is warped, and this distortion increases approaching the event horizon. In the case that the black hole is non-rotating, the Schwarzschild metric describes the curvature of the spacetime, and in combination with a set of equations called the geodesic equations, it can be used to forecast the trajectory of a particle through spacetime. 
+	
 	*Aims* In this project, we seek to model a particle of negligable mass in the vicinity of a black hole. We then compare the behaviour of our model to the analytical solution in different limiting scenarios. 
+	
 	*Methods* We limit the degrees of freedom of the particle without loss of generality and use a SciPy adaptive solver to compute its trajectory over a specified time interval. 
+	
 	*Results* The simulation showed expected behaviour: Precessing elliptical orbits, Keplerian circular orbits in the far-field limit, and the radial infall of initially stationary particles. The simulation performed best when using a fifth order implicit Runge Kutta method of the Radau-family, the SciPy Radau method, as opposed to explicit methods, implying this is a stiff set of equations.
 
 Recently, I've been experimenting in Python modelling 2D anisotropic Harmonic Oscillators. These are systems which obey an equation of motion of the form: 
