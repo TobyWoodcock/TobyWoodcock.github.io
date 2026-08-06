@@ -10,7 +10,10 @@ University Projects:
 	
 	*Methods* We combine pebble accretion with two other processes: planetary migration and gas accretion to build a versatile model of planetary growth. In Python, we use the foward Euler method with an adaptive timestep to integrate both the position and mass of the planet with respect to time. 
 	
-	*Results* Growth is highly dependent on the orbital radius of the embryo, and the largest planets develop outside the inner solar system before migrating inwards. Our model was able to form giant planets in early solar systems with moderate amounts of dust - more than estimated in real exoplanet systems, but less than needed to form giant planets in other models.
+	*Results* Growth is highly dependent on the orbital radius of the embryo, and the largest planets develop outside the inner solar system before migrating inwards. Our model was able to form giant planets in early solar systems with moderate amounts of dust - more than estimated in real exoplanet systems, but less than needed to form giant planets in other models.<img width="3391" height="2116" alt="final grid 2 (1)" src="https://github.com/user-attachments/assets/cd38ba6e-3dda-45e0-aeea-119552064650" />
+	Fig 1. Final mass vs final orbital radius of planets in systems with different total dust masses and distribution parameters.
+
+
 
 2. (Computational Physics Module Final Project) Trajectory of a Particle in The Vicinity of a Black Hole
 	
@@ -20,7 +23,8 @@ University Projects:
 	
 	*Methods* We limit the degrees of freedom of the particle without loss of generality and use a SciPy adaptive solver to compute its trajectory over a specified time interval. 
 	
-	*Results* The simulation showed expected behaviour: Precessing elliptical orbits, Keplerian circular orbits in the far-field limit, and the radial infall of initially stationary particles. The simulation performed best when using a fifth order implicit Runge Kutta method of the Radau-family, the SciPy Radau method, as opposed to explicit methods, implying this is a stiff set of equations.
+	*Results* The simulation showed expected behaviour: elliptical orbits with precessing periastrons, Keplerian circular orbits in the far-field limit, and the radial infall of initially stationary particles. The simulation performed best when using a fifth order implicit Runge Kutta method of the Radau-family, the SciPy Radau method, as opposed to explicit methods, implying this is a stiff set of equations. <img width="699" height="688" alt="precession_of_the_periastron" src="https://github.com/user-attachments/assets/b92ad486-1f32-4ba2-ad47-f5d6393005a5" />
+	Fig 2. Precession of the periastron of an orbit at 10 Schwarzschild radii.
 
 Recently, I've been experimenting in Python modelling 2D anisotropic Harmonic Oscillators. These are systems which obey an equation of motion of the form: 
 
